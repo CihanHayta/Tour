@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 150px;
+  gap: 190px;
   padding-block: 20px;
   border-bottom: 1px solid rgba(100, 142, 247, 1);
   padding-inline: 16px;
@@ -840,7 +840,7 @@ border: 1px solid #dcdcdc;
 
    .header{
     width: 768px;
-    gap: 450px;
+    gap: 550px;
   } 
 
   .grap-person-desk {

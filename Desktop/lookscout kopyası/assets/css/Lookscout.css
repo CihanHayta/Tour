@@ -1,29 +1,32 @@
 * {
-  margin: 0 auto;
+  margin: 0 auto ;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: white;
+    background-color: #FFFFFF;
 }
 
 /* First Mobile */
 
 .container {
-  width: 375px;
-  padding-inline: 16px;
+    width: 100%;
+  margin: 0 auto;
+ background-color: #FFFFFF;
 }
 
 .header {
-  width: 375px;
+
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 190px;
+  gap: 210px;
   padding-block: 20px;
   border-bottom: 1px solid rgba(100, 142, 247, 1);
   padding-inline: 16px;
+
 
   background-color: #2b63d9;
 }
@@ -48,19 +51,22 @@ body {
 }
 
 .supercharge {
-   width: 375px;
+
   padding-inline: 16px;
   display: flex;
   flex-direction: column;
   background-color: #2b63d9;
+
 }
+
 
 .grap-person-mobile {
   margin-bottom: 32px;
-  width: 300px;
+  
 }
 
 .text-charge {
+
   h2 {
     color: white;
     font-weight: 600;
@@ -118,7 +124,7 @@ body {
 }
 
 .Messaging {
-
+  margin: 0 auto;
   background-color: #ffffff;
   padding-inline: 16px;
 }
@@ -177,6 +183,8 @@ body {
 }
 
 .Redefining {
+  margin: 0 auto;
+  max-width: 1280px;
   background-color: #ffffff;
   padding-inline: 16px;
 }
@@ -191,6 +199,7 @@ body {
 .redef-mobile {
   width: 100%;
   margin-bottom: 32px;
+
 }
 
 .redef-text {
@@ -293,14 +302,26 @@ width: 48px;
 }
 
 .lacivert-redefining {
+  margin: 0 auto;
+  max-width: 1280px;
   background-color: #151a28;
   padding-inline: 16px;
 }
 
+.redef-desk-lacivert{
+  display: none;
+}
+
+.redef-tablet-lacivert{
+  display: none;
+}
+
+
 .redef-mobile-lacivert {
+  width: 340px;
   margin-top: 32px;
-  width: 100%;
   margin-bottom: 32px;
+  margin-left: 40px;
 }
 
 .redef-lacivert {
@@ -340,6 +361,7 @@ width: 48px;
 }
 
 .thank {
+    margin: 0 auto;
   background-color: white;
   padding-inline: 16px;
 }
@@ -448,6 +470,8 @@ margin-bottom: 65px;
 }
 
 .latest-blog{
+  margin: 0 auto;
+
    background-color: #ffffff;
   padding-inline: 16px;
 }
@@ -457,6 +481,7 @@ margin-bottom: 65px;
     flex-direction: column;
     margin-bottom: 32px;
 }
+
 
 .latest-text{
     h2{
@@ -484,7 +509,8 @@ margin-bottom: 65px;
 
 
 .cicek{
-    width: 310px;
+  margin-left: 2px;
+    width: 345px;
     height: 195px;
     border-radius: 10px;
     margin-bottom: 12px;
@@ -514,6 +540,7 @@ margin-bottom: 65px;
 
 .person-latest{
     display: flex;
+   
     flex-direction: row;
     width: 110px;
     gap: 10px;
@@ -553,7 +580,8 @@ margin-bottom: 65px;
 }
 
 .Proud{
-      background-color: white;
+  margin: 0 auto;
+ background-color: white;
   padding-inline: 16px;
 }
 
@@ -596,6 +624,8 @@ margin-bottom: 65px;
 }
 
 .welcome{
+  margin: 0 auto;
+
     padding-inline: 16px;
     background-color: #FAFBFC;
 }
@@ -735,7 +765,7 @@ border: 1px solid #dcdcdc;
 
 
 .footer-desk{
-      padding-inline: 16px;
+    margin: 0 auto;
       background-color: #151A28;
 }
 
@@ -879,22 +909,42 @@ border: 1px solid #dcdcdc;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tablet version */
 
-@media (width > 750px) {
+@media (width >= 750px) {
 
   .container{
-    width: 768px;
+    width: 100%;
+     margin:0 auto;
   }
 
    .header{
-    width: 768px;
-    gap: 550px;
+
+    gap: 565px;
   } 
 
   .grap-person-desk {
   display: block;
   align-content: center;
+  margin-inline: 48px;
   margin-bottom: 40px;
 }
 
@@ -903,10 +953,12 @@ border: 1px solid #dcdcdc;
 }
 
 .supercharge{
+  width: 100%;
   padding-inline: 48px;
-  width: 768px;
+ 
 }
 .text-charge{
+    width: 670px;
   h2{
     color:rgba(255, 255, 255, 1) ;
     font-weight: 700;
@@ -964,7 +1016,6 @@ border: 1px solid #dcdcdc;
 
 
 .Messaging{
-  width: 768px;
   padding-inline: 32px;
 }
 
@@ -1001,7 +1052,7 @@ border: 1px solid #dcdcdc;
 
 
 .Redefining{
-  width: 768px;
+
   padding-block: 40px;
   padding-inline: 32px;
 }
@@ -1079,7 +1130,6 @@ p{
 
 
 .lacivert-redefining{
-  width: 768px;
   padding-block: 40px;
   padding-inline: 32px;
 }
@@ -1088,18 +1138,18 @@ p{
   display: none;
 }
 
-.redef-desk{
+.redef-desk-lacivert{
   display: none;
 }
 
-.redef-tablet{
+.redef-tablet-lacivert{
   display: block;
   margin-bottom: 48px;
+  width: 600px;
 }
 
 
 .thank{
-  width: 768px;
   padding-block: 40px;
   padding-inline: 32px;
 
@@ -1247,7 +1297,7 @@ margin-bottom: 16px;
 
 
 .Proud{
-  width: 768px;
+
   padding-block: 40px;
   padding-inline: 32px;
 }
@@ -1418,9 +1468,11 @@ border: 1px solid #dcdcdc;
 
 
 .footer-desk{
+  
   display: none;
 }
 .footer-tablet{
+  width: 100%;
   display: block;
   background-color: #151A28;
 }
@@ -1460,7 +1512,7 @@ border: 1px solid #dcdcdc;
   }
 
   .footer-email{
-    margin-left: 2px;
+    margin-left: -14px;
   }
 
   p{
@@ -1523,15 +1575,19 @@ border: 1px solid #dcdcdc;
 /* desktop verison */
 
 
-@media ( width >1024px){
+@media ( width >=1024px){
 
   .container{
-    width: 1440px;
+    width: 100%;
+    margin: 0 ;
   }
 
 
   .header{
-    width: 1280px;
+   
+    width: 100%;
+  margin: 0 auto;
+
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -1651,9 +1707,15 @@ border: 1px solid #dcdcdc;
 
 
  .supercharge{
-  width: 1280px;
-  padding-inline: 80px;
- 
+  width: 100%;
+  margin: 0 auto;
+
+  background-color: #2b63d9;
+
+ }
+
+ .text-charge{
+  width: 550px;
  }
 
 .grap-person-mobile{
@@ -1661,18 +1723,24 @@ border: 1px solid #dcdcdc;
 }
 
 .grap-person-desk{
+  width: 100%;
+
   display: block;
   margin-left: -3px;
 }
 
  .supercharge-wrapper{
+
    display: flex;
   flex-direction: row-reverse;
   gap: -20px;
+
+
  }
   
 
 .text-charge{
+
   margin-top: 132px;
 
 h2{
@@ -1705,7 +1773,7 @@ p{
 }
 
 .Messaging{
-  width: 1280px;
+  max-width: 1280px;
   padding-inline: 80px;
 }
 .text-mass{
@@ -1721,7 +1789,8 @@ p{
 
 
 .Redefining{
- width: 1280px;
+  max-width: 1280px;
+
   padding-inline: 80px;
   
 }
@@ -1731,6 +1800,8 @@ p{
 
 .redef-desk{
   display: block;
+
+
 }
 .redef-tablet{
   display: none;
@@ -1741,22 +1812,31 @@ p{
 .redef{
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
   justify-content: center;
   gap: 124px;
   margin-bottom: 64px;
 }
 
 .redef-left-part{
-  margin-top: 68px;
+
 }
 
 .lacivert-redefining{
-  width: 1280px;
+   max-width: 1440px;
+  
+  align-items: center;
+  padding-inline: 80px;
+
+
+
 }
-.redef-desk{
+.redef-desk-lacivert{
   display: block;
+  width: 560px;
 }
-.redef-tablet{
+
+.redef-tablet-lacivert{
   display: none;
 }
 .redef-mobile-lacivert{
@@ -1764,11 +1844,12 @@ p{
 }
 
 .lacivert-wrapper{
+  max-width: 1280px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 80px;
-  padding-inline: 110px;
-  padding-block:64px ;
+
 }
 
  .redef-lacivert{
@@ -1776,7 +1857,7 @@ p{
 } 
 
 .thank{
- width: 1280px;
+   max-width: 1280px;
   padding-inline: 80px;
 }
 
@@ -1856,8 +1937,8 @@ p{
 
 
 .latest-blog{
-   width: 1280px;
-  padding-inline: 80px;
+     max-width: 1280px;
+  padding-inline: 80px;;
 }
 
 .latest-text{
@@ -1943,7 +2024,7 @@ p{
 
 
 .Proud{
- width: 1280px;
+  max-width: 1280px;
   padding-inline: 80px;
 }
 
@@ -2002,6 +2083,12 @@ border: 1px solid #dcdcdc;
 
 }
 
+.welcome{
+    max-width: 1280px;
+  padding-inline: 80px;
+
+}
+
 .email input[type="email"]:focus {
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
@@ -2017,6 +2104,7 @@ border: 1px solid #dcdcdc;
   }
 .footer-desk{
   display: block;
+  width: 1440px;
  
 }
 
